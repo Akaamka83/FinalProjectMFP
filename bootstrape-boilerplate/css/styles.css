@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding:0%
+    margin:0%
+}
 header {
     background-image: url(../img/CoOperative\(1\).jpg);
     /* background-size: 100%;
@@ -15,3 +20,11 @@ height: 900px;
 .navquote {
     background-color: #8c6443;
 }
+.backgroundparagraphs {
+   background:;
+  
+   
+}
+#myVideo {
+    
+  
