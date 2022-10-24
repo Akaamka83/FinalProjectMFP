@@ -15,16 +15,33 @@ height: 900px;
 .navquotebg {
     
     color:#3d4536;
+    padding: 4%;
     
 }
 .navquote {
     background-color: #8c6443;
+    border: solid;
+  
 }
 .backgroundparagraphs {
-   background:;
+
   
    
 }
-#myVideo {
+#carouselExampleFade {
+    height: 600px;
+    width: 900px;
+    border: solid #3d4536 ;
+    background-color:black ;
+   border-radius: 8%;
+}
+footer {
+    height: 100px;
+    background:  #3d4536;
+    color:  #8c6443;
+}
+.offcanvasNavbar {
+    background: #3d4536
+}
     
   
