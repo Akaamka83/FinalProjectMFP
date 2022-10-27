@@ -31,13 +31,13 @@ height: 900px;
 }
 #carouselExampleFade {
     height: 600px;
-    width: 900px;
+    width: 100%;
     border: solid #3d4536 ;
     background-color:black ;
    border-radius: 8%;
 }
 footer {
-    height: 120px;
+    height: 100%;
     background:  #3d4536;
     color:  #8c6443;
 }
@@ -57,6 +57,19 @@ footer {
     
   }
 
+  @media only screen and (max-width: 770px) {
+    .navquote {
+      padding: 48px;
+    }
+    header {
+        height: 550px;
+    }
 
+  }
     
+  @media only screen and (min-width: 770px) {
+    .navquote {
+      padding: 148px;
+    }
+  }
   
