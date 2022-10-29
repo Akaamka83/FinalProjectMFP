@@ -72,14 +72,14 @@
       <div class="surveyHeading mb-5 text-center text-dark">
         <h1> CoOperative Questionnaire </h1>
       </div>
-      <form class=" container h-100 w-100 text-center p-5" action="https://formspree.io/f/xaykpdyr" method="POST">
-        <div id="content1">
+      <form class=" container h-auto w-auto text-center p-5" action="https://formspree.io/f/xaykpdyr" method="POST">
+        <div id="content1" class="container">
             <label for=""><h2>What Type of CoOperative Do You Want to Start?</h2></label> <br>
-            <input type="text" name="CoOpType" placeholder="Type of CoOp?" class=" container box"> <br><br>
+            <input type="text" name="CoOpType" placeholder="Type of CoOp?" class=" container box h-auto w-auto"> <br><br>
             <label for=""><h2>Where Do You Want Your CoOperative to be Located?</h2></label> <br>
-            <input type="text" name="CoOpLocation" placeholder="Type City and State of CoOp?" class="container box"> <br><br>
+            <input type="text" name="CoOpLocation" placeholder="City and State?" class="container box"> <br><br>
             <label for=""><h2>How Many Worker/Owners Will You Start With?</h2></label> <br>
-            <input type="number" name="CoOpNumber" placeholder="Type Number of Worker/Owners?" class="container box"> <br><br>
+            <input type="number" name="CoOpNumber" placeholder="# of Worker/Owners?" class="container box"> <br><br>
             <label for=""><h2>Have You Completed a Feasibility Test?</h2></label> <br>
             <div id="feasibility">
                 <select >
@@ -87,7 +87,7 @@
                     <option value="">NO</option>
                 </select><br><br>
                 <label for=""><h2>Amount of Capitol Needed?</h2></label> <br>
-            <input type="currency" name="CoOpCapital" placeholder="Type Amount of Money Needed" class="container box"> <br><br>
+            <input type="currency" name="CoOpCapital" placeholder= "Seed Money Needed" class="container box"> <br><br>
             <label for=""><h2>What is Your Anticipated Start Date?</h2></label> <br>
             <input type="date" name="CoOpDate" placeholder="Type Anticipated Start Date" class="container box"> <br><br>
             <input type="submit" value="Submit">
@@ -100,28 +100,29 @@
       </form>
       
     <footer class="mt-5 w-100  d-flex justify-content-center">
-      <div class="container">
+      <div class="container d-flex justify-content-center">
         <div class="row">
-          <div class="col-md-3 pt-3">
-            <a class="navbar-brand" href="index.html"> <img src="img/OperationCoOp.png" alt="" height="75" width="125"> </a><br> <a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-facebook-messenger ps-2"></i></a>
+         
+         
+          <div class="col-md-12 pt-3">
+            <a class="navbar-brand d-flex justify-content-center" href="index.html"> <img src="img/OperationCoOp.png" alt="" height="70" width="120"> </a>
+
+            
+
+            <div class="container d-flex justify-content-center ps-1 pb-2"><a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-tiktok"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
+           </div>
+            
+            <i class="fa-regular fa-copyright d-flex justify-content-center"> <h5 class="footertext">All Rights Reserved</h5></i>
+            <h5 class="footertext d-flex justify-content-center">Phone Number:(415)410-6372</h5>
+            <h5 class="footertext d-flex justify-content-center">Email:killings.timothy@gmail.com</h5>
+            
             
           </div>
-         
-          <div class="col-md-3 pt-3">
-            <h5 class="footertext"><i class="fa-regular fa-copyright"></i>All Rights Reserved</h5>
-            
-          </div>
-          <div class="col-md-3 pt-3">
-            <h5 class="footertext">Phone Number:(415)410-6372</h5>
-            
-          </div>
-          <div class="col-md-3 pt-3">
-            <h5 class="footertext">Email:killings.timothy@gmail.com</h5>
-            
-          </div>
+        
         </div>
       </div>
     </footer>

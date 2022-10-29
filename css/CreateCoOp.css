@@ -51,9 +51,9 @@ footer {
 }
     
  .box {
-    height:50px;
-    width: 800px;
-    font-size:14pt;
+    height:auto;
+    width: auto;
+    font-size:12pt;
  } 
  body{
     background: url(../img/Ant.jpg);
